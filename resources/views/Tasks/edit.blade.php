@@ -33,8 +33,8 @@
             <textarea name="body">{{ old('name', $task->body) }}</textarea>
         </p>
         <div class="inline-flex">
-        <input type="submit" value="更新">
-        <input type="submit" value="詳細に戻る">
+            <input type="submit" value="更新">
+            <input type="submit" value="詳細に戻る">
         </div>
     </form>
 </body>
